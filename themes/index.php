@@ -1,2 +1,2 @@
 <?php
-// Silence is golden. 佑がここに書きました
+// Silence is golden. 
