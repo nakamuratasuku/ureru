@@ -1,0 +1,271 @@
+/*
+#####################################################################
+
+base.css:共通項目や凡用クラス、基本レイアウト
+reset.css:リセットのみ
+style.css:その他各ページごとに（今後ページが増えたら分割します）
+
+memo hattori 2016/02/17
+
+#####################################################################
+*/
+
+
+
+
+
+/*
+#####################################################################
+
+サイト全体の基本設定
+
+#####################################################################
+*/
+
+
+/* ****************************************************
+フォント
+***************************************************** */
+body {
+    color: #666;
+    font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-size:16px;
+    line-height: 1.7em;
+    letter-spacing:0.02em;
+}
+
+
+
+
+/* ****************************************************
+リンク
+***************************************************** */
+a:link{color:#ff5f0d;text-decoration: underline;}
+a:visited{color:#ff5f0d;text-decoration: underline;}
+a:hover,
+a:focus,
+a:active{color:#ff5f0d;
+    text-decoration:none;
+    filter: alpha(opacity=80);
+    -moz-opacity:0.8;
+    opacity:0.8;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+#####################################################################
+
+汎用クラス
+
+#####################################################################
+*/
+
+
+/* ****************************************************
+下層タイトル周り
+***************************************************** */
+
+.page h1{
+    font-size:32px;
+    border-bottom: 4px solid #fc6025;
+    padding:15px 0;
+    margin-top: 10px;
+    color: #fc6025;
+}
+
+
+/* ****************************************************
+テキスト関係
+***************************************************** */
+
+.txtRed{ color: ;}
+.txtS{ font-size: 12px;}
+
+/* ****************************************************
+余白追加
+***************************************************** */
+
+.mgB10{margin-bottom: 10px;}
+.mgB20{margin-bottom: 20px;}
+
+
+
+
+
+/* ****************************************************
+Clear fix
+***************************************************** */
+
+.clearfix:after {
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+    content: ".";
+    font-size: 0;
+    line-height: 0;
+}
+
+.clearfix {
+    min-height: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+#####################################################################
+
+レイアウト
+
+#####################################################################
+*/
+
+
+/* ****************************************************
+ヘッダー
+***************************************************** */
+
+#header{
+    height:138px;
+}
+
+#header-logo{
+    font-size: 16px;
+    color: #ff5f0d;
+    width: 400px;
+    margin: ;
+    line-height: 24px;
+    margin: 22px auto 0px;
+    text-align: center;
+    font-weight:bold;
+}
+
+#header-logo img{
+    display: inline-block;
+    width: 100px;
+    height: 71px;
+    margin-top:5px;
+}
+
+/* ****************************************************
+ナビ
+***************************************************** */
+
+.navi{
+    background-color: #fffaec;
+    padding: 0 auto;
+    text-align: center;
+}
+
+.navi li:first-child{border-left: 2px solid #ff5f0d;}
+.navi li{
+    display: inline-block;
+    margin:25px 0;
+    border-right: 2px solid #ff5f0d;
+}
+.navi a:link{
+    color: #ff5f0d;
+    font-size: 20px;
+    display: inline-block;
+    padding: 0 30px;
+    text-decoration: none;
+}
+
+.navi a:visited{text-decoration: none;}
+.navi a:hover{text-decoration: none;}
+
+/*グローバルビ
+=========================================*/
+
+#gnavi{
+    background-color: #fffaec;
+}
+
+#gnavi a:link{
+    color: #ff5f0d;
+}
+
+/*フッターナビ
+=========================================*/
+
+#bnavi{
+    background-color: inherit;
+}
+
+#bnavi li{border-color: #6b6b6b;}
+
+#bnavi a:link{
+    color: #6b6b6b;
+}
+
+
+
+
+
+/* ****************************************************
+横幅100%コンテンツブロック
+***************************************************** */
+
+.block-full{width: 100%;}
+
+/* ****************************************************
+横幅固定(980px)コンテンツブロック
+***************************************************** */
+
+.block-fix{width: 980px;margin: 0 auto;}
+
+
+/* ****************************************************
+フッター
+***************************************************** */
+
+#footer{
+    background-color: #f8f8f8;
+}
+
+.pagetop{
+    padding-top: 30px;
+}
+.pagetop a{
+    display: block;
+    margin: 0 auto ;
+    width: 202px;
+    height: 43px;
+}
+
+#footer small{
+    font-size: 12px;
+    text-align: center;
+    display: block;
+    padding: 0 0 20px;
+}
+
+#widthyou{
+    background-color: #fff9e9;
+    text-align: center;
+    padding: 50px 0;
+}
+
+
+/*ブロック名
+=========================================*/
+
+
+

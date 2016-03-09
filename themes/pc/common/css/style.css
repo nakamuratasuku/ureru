@@ -1,0 +1,894 @@
+@charset "UTF-8";
+/* *******************************************************************
+
+各ブロック
+(カッコ内はそのブロックの使用ページ）
+
+******************************************************************* */
+/*　なぜ笑うと査定アップするの？（TOP）
+=========================================*/
+#top .top-image img {
+  display: inline-block;
+  margin-bottom: 23px; }
+
+#top #contents .top-imgblock {
+  display: block;
+  margin-bottom: 20px; }
+
+#contents .whyup p {
+  background-color: #ff5f0d;
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  line-height: 1em; }
+
+#contents .whyup {
+  height: 210px;
+  width: 980px;
+  background: url(../images/top/icon_arrow_top.png) no-repeat 50% 75%; }
+
+/*　ウレルが大事にしてること（TOP）
+=========================================*/
+#contents .important {
+  background: #fffcfa url(../images/top/bg_gradewide.png) repeat-y;
+  padding-bottom: 30px;
+  margin-bottom: 20px; }
+
+#contents .important h2.no-style {
+  background-image: none !important;
+  color: #ff5f0d;
+  font-size: 50px;
+  line-height: 1em;
+  padding: 50px 0;
+  text-align: center;
+  font-weight: normal;
+  text-shadow: none; }
+
+#contents .important p {
+  width: 980px;
+  margin: 0 auto;
+  font-size: 24px;
+  line-height: 1.9em;
+  color: #666; }
+
+#contents .important img {
+  display: block;
+  margin: 0 auto 20px; }
+
+/*　スタッフ紹介（TOP）
+=========================================*/
+#contents .staff section {
+  width: 980px;
+  margin: 0 auto; }
+
+#contents .staff .section_title p {
+  color: #666;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 95px; }
+
+#contents .staff {
+  margin-bottom: 50px; }
+
+#contents .staff .staff-detail .photo {
+  margin-bottom: 15px; }
+
+#contents .staff .staff-detail .photo {
+  margin-bottom: 15px; }
+
+#contents .staff-txt {
+  background-image: linear-gradient(to right, #fffdf0 0%, #fffdf0 100%);
+  margin-bottom: 10px;
+  padding: 30px 40px; }
+
+#contents .staff-txt h3 {
+  color: #ff5f0d;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  line-height: 1em; }
+
+#contents .staff-txt p {
+  color: #666;
+  font-size: 20px;
+  line-height: 1.7em; }
+
+/*スタッフ個別指定（TOP）
+=========================================*/
+#contents .staff-tencyo .photo {
+  margin-bottom: 40px; }
+
+#contents .staff-tencyo .photo img {
+  display: inline-block; }
+
+#contents .staff-tencyo .photo img:first-child {
+  margin-right: 30px; }
+
+#contents .staff-tencyo {
+  border-bottom: 3px solid #ebebeb;
+  padding: 0 0 20px;
+  margin-bottom: 30px; }
+
+#contents .staff-aoki {
+  width: 475px;
+  float: left; }
+
+#contents .staff-kotsubo {
+  width: 475px;
+  float: right; }
+
+/*　買取アイテム一覧（TOP）
+=========================================*/
+#contents .itemlist,
+#contents .itemlist-kyouka {
+  margin: 0 auto 50px;
+  width: 1008px; }
+
+#contents .itemlist-kyouka .section_title img {
+  display: block;
+  margin: 0 auto; }
+
+#contents .itemlist-kyouka .section_title p {
+  padding: 20px 0; }
+
+#contents .item-box li {
+  width: 317px;
+  height: 197px;
+  margin: 7px;
+  display: inline-block;
+  color: #666;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 20px;
+  vertical-align: top; }
+
+#contents .item-box li a {
+  width: 317px;
+  height: 217px;
+  display: block;
+  color: #333;
+  text-decoration: none; }
+
+#contents .item-box .item_brandirui {
+  background-image: url(../images/top/thum_item_brandirui.png); }
+
+#contents .item-box .item_brandbag {
+  background-image: url(../images/top/thum_item_brandbag.png); }
+
+#contents .item-box .item_kikinzoku {
+  background-image: url(../images/top/thum_item_kikinzoku.png); }
+
+#contents .item-box .item_tokei {
+  background-image: url(../images/top/thum_item_tokei.png); }
+
+#contents .item-box .item_kottohin {
+  background-image: url(../images/top/thum_item_kottohin.png); }
+
+#contents .item-box .item_brandshokki {
+  background-image: url(../images/top/thum_item_brandshokki.png); }
+
+#contents .item-box .item_kinzoku {
+  background-image: url(../images/top/thum_item_kinzoku.png); }
+
+#contents .item-box .item_hoseki {
+  background-image: url(../images/top/thum_item_brandhoseki.png); }
+
+#contents .item-box .item_barndjewelry {
+  background-image: url(../images/top/thum_item_brandjewelry.png); }
+
+#contents .item-box .item_rolex {
+  background-image: url(../images/top/thum_item_rolex.png); }
+
+#contents .item-box .item_diamond {
+  background-image: url(../images/top/thum_item_diamond.png); }
+
+#contents .item-box .item_kihei {
+  background-image: url(../images/top/thum_item_kihei.png); }
+
+#contents .item-box .item_apparel {
+  background-image: url(../images/top/thum_item_apparel.png); }
+
+#contents .item-box .item_kihei {
+  background-image: url(../images/top/thum_item_kihei.png); }
+
+#contents .item-box .item_vuitton {
+  background-image: url(../images/top/thum_item_vuitton.png); }
+
+#contents .item-box .item_hublot {
+  background-image: url(../images/top/thum_item_hublot.png); }
+
+#contents .item-box .item_gucci {
+  background-image: url(../images/top/thum_item_gucci.png); }
+
+#contents .item-box .item_chromehearts {
+  background-image: url(../images/top/thum_item_chromehearts.png); }
+
+#contents .item-box .item_chanel {
+  background-image: url(../images/top/thum_item_chanel.png); }
+
+#contents .item-box .item_tiffany {
+  background-image: url(../images/top/thum_item_tiffany.png); }
+
+#contents .item-box .item_prada {
+  background-image: url(../images/top/thum_item_prada.png); }
+
+#contents .item-box .item_bulgari {
+  background-image: url(../images/top/thum_item_bulgari.png); }
+
+/*　買取相場（TOP）
+=========================================*/
+#contents .soba-box {
+  width: 988px;
+  margin: 0 auto 50px;
+  overflow: hidden; }
+
+#contents .soba-box li {
+  width: 239px;
+  margin: 4px;
+  float: left;
+  padding: 0;
+  display: block;
+  background: #f8f8f8 url(../images/top/bg_soba_btm.png) no-repeat bottom;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px; }
+
+#contents .soba-box .thum {
+  margin: 15px 14px 0 15px; }
+
+#contents .soba-box h3 {
+  font-size: 16px;
+  margin: 0 14px 16px 15px;
+  padding: 7px;
+  line-height: 1em;
+  background: url(../images/top/bg_soba_title.png) repeat-y; }
+
+#contents .soba-box h3.line2 {
+  margin-bottom: 0; }
+
+#contents .soba-box li p {
+  margin: 0 14px 0 15px; }
+
+#contents .soba-box li p.price01 {
+  border-bottom: 3px solid #ebebeb;
+  background: url(../images/top/txt_normalprice.png) no-repeat left;
+  text-align: right;
+  padding: 10px 0 5px;
+  font-size: 16px; }
+
+#contents .soba-box li p.price02 {
+  border-bottom: 3px solid #ebebeb;
+  background: url(../images/top/txt_price.png) no-repeat left;
+  text-align: right;
+  padding: 15px 0 15px;
+  font-size: 20px;
+  color: #ff5f0d;
+  font-weight: bold; }
+
+#contents .soba-box li p.price01 span {
+  font-size: 22px; }
+
+#contents .soba-box li p.price02 span {
+  font-size: 24px; }
+
+/*　笑ってくれたら（TOP）
+=========================================*/
+#contents .plus500 p span {
+  display: inline-block;
+  float: right;
+  font-size: 20px;
+  font-weight: normal; }
+
+#contents .plus500 {
+  background-color: #ff5f0d;
+  padding-top: 10px;
+  margin-bottom: 50px; }
+
+#contents .plus500 img {
+  display: block;
+  margin: 0 auto; }
+
+#contents .plus500 p {
+  padding: 10px 30px 20px;
+  color: #fff;
+  line-height: 1.7em;
+  font-size: 24px;
+  text-align: justify; }
+
+/*　買取ブランド一覧（TOP）
+=========================================*/
+#contents .brandlist {
+  margin-bottom: 50px; }
+
+#contents .brandlist li {
+  width: 214px;
+  height: 64px;
+  display: inline-block;
+  margin: 8px 11px;
+  background-color: #f7c3a6;
+  border: 2px solid #666;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  line-height: 64px;
+  text-align: center;
+  color: #666;
+  font-size: 19px; }
+
+#contents .brandlist a:link {
+  text-decoration: none; }
+
+#contents .brandlist a:visited {
+  text-decoration: none; }
+
+/*　笑えたエピソード（TOP）
+=========================================*/
+#contents .episode {
+  height: 885px;
+  background: url(../images/top/img_episode.jpg) no-repeat bottom;
+  margin-bottom: 50px; }
+
+/*　買取は店頭で（TOP）
+=========================================*/
+#contents .shop-front-wrap {
+  background-color: #f8f8f8;
+  padding: 15px;
+  width: 950px;
+  margin: 0 auto; }
+
+#contents .shop-front-photo {
+  width: 950px;
+  margin-bottom: 10px; }
+
+#contents .shop-front-photo p {
+  color: #ff5f0d;
+  font-weight: bold;
+  padding: 0;
+  margin-bottom: 10px;
+  line-height: 1em;
+  text-align: center; }
+
+#contents .shop-front-photo p span:last-child {
+  background: url(../images/top/img_logo_shop.png) no-repeat center top;
+  padding-top: 70px;
+  font-size: 30px;
+  margin-bottom: 10px; }
+
+#contents .shop-front-photo p span {
+  font-size: 14px;
+  display: block;
+  line-height: 1.4em;
+  margin-bottom: 10px; }
+
+#contents .shop-front-wrap .shop-detail {
+  color: #666; }
+
+#contents .shop-front-detail-box {
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 23px;
+  font-size: 20px;
+  line-height: 1.4em; }
+
+#contents .shop-front-detail-box h3 {
+  font-size: 25px;
+  margin-bottom: 10px; }
+
+#contents .shop-front-detail-box h3 a {
+  display: block;
+  float: right; }
+
+/*　お問い合わせ（TOP）
+/*　（電話番号、駐車場代、宅配買取）
+=========================================*/
+#contents .telnum {
+  clear: both;
+  background: #fff url(../images/top/bg_contact.png) no-repeat 5% 50%;
+  height: 272px;
+  text-align: center;
+  padding-left: 400px; }
+
+#contents .telnum h3 {
+  color: #666;
+  font-size: 29px;
+  padding-top: 70px;
+  font-weight: normal;
+  margin-bottom: 20px; }
+
+#contents .telnum p {
+  line-height: 1.4em;
+  color: #666;
+  font-size: 25px;
+  font-weight: 400; }
+
+#contents .telnum span {
+  color: #3485e9;
+  font-size: 43px; }
+
+#contents .shop-txtB {
+  background: url(../images/top/bg_gradewide.png) repeat-y;
+  text-align: center;
+  color: #666;
+  font-size: 33px;
+  font-weight: 400;
+  line-height: 1.4em;
+  padding: 30px; }
+
+#contents .track {
+  background-color: #fff;
+  padding: 30px 60px; }
+
+#contents .track h3 {
+  color: #ff5f0d;
+  font-size: 50px;
+  font-weight: 500;
+  text-align: center; }
+
+#contents .track p {
+  background: #fff url(../images/top/img_track.png) no-repeat left;
+  margin: 20px 80px;
+  padding-left: 180px;
+  color: #666;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 36px; }
+
+/*　会社概要（company）
+=========================================*/
+#contents .company-info {
+  margin: 40px auto 30px;
+  color: #333; }
+
+#contents .company-info dt {
+  width: 220px;
+  float: left;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.6em; }
+
+#contents .company-info dd {
+  padding-left: 220px;
+  margin-bottom: 25px;
+  font-size: 14px;
+  line-height: 1.6em; }
+
+#contents .company-info dd img {
+  vertical-align: middle;
+  height: 20px; }
+
+#contents .company-info dd p:first-child {
+  margin-bottom: 10px; }
+
+/* 店舗外観 ＋ 店名・営業時間　(shop)
+=========================================*/
+#contents .shop-mv {
+  margin-top: 15px;
+  position: relative; }
+
+#contents .shop-mv .bg01 {
+  background: #ff5f0e;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  color: #fff;
+  padding: 12px 18px 12px;
+  border-radius: 5px;
+  -webkit-box-shadow: -2px -2px 0 rgba(255, 255, 255, 0.7);
+  box-shadow: -2px -2px 0 rgba(255, 255, 255, 0.7); }
+
+#contents .shop-mv p {
+  font-size: 15px;
+  margin-bottom: 8px;
+  line-height: 1.3; }
+
+#contents .shop-mv h2 {
+  font-size: 30px; }
+
+#contents .shop-mv h2 span {
+  display: block;
+  font-size: 13px;
+  margin: 5px 0 0;
+  font-weight: normal; }
+
+/* Google Map (shop)
+=========================================*/
+#contents .gmap {
+  display: block; }
+
+/* 道案内 (shop)
+=========================================*/
+#contents .how_access {
+  overflow: hidden;
+  margin: 20px 0; }
+
+#contents .how_access {
+  clear: both; }
+
+#contents .how_access ul {
+  margin-bottom: 50px;
+  list-style: disc; }
+
+#contents .how_access p {
+  margin-bottom: 30px; }
+
+#contents .how_access li {
+  margin-left: 20px;
+  margin-bottom: 10px; }
+
+#contents .accessL {
+  width: 480px;
+  float: left; }
+
+#contents .accessR {
+  width: 480px;
+  float: right; }
+
+#contents .how_access .plus500 {
+  background: url(../images/top/bg_grade.png) repeat-y;
+  background-size: contain;
+  padding: 20px;
+  text-align: center;
+  line-height: 1.3; }
+
+/* 写真付き道案内 (shop)
+=========================================*/
+#contents .how_access_photo {
+  margin: 10px; }
+
+#contents .how_access_photo ul {
+  overflow: hidden;
+  padding-top: 25px;
+  margin-bottom: 40px; }
+
+#contents .how_access_photo li {
+  float: left;
+  width: 220px;
+  position: relative;
+  margin-right: 26px;
+  text-align: center; }
+
+#contents .how_access_photo li:nth-child(4n) {
+  margin-right: 0; }
+
+/*-- オレンジライン --*/
+#contents .how_access_photo li:after {
+  content: "";
+  background: #ff5f0d;
+  display: block;
+  position: absolute;
+  top: 120px;
+  height: 17px;
+  width: 40px;
+  left: 210px;
+  z-index: -10; }
+
+#contents .how_access_photo li:nth-child(8n+4):after,
+#contents .how_access_photo li:nth-child(8n+5):before {
+  content: "";
+  background: #ff5f0d;
+  display: block;
+  position: absolute;
+  width: 17px;
+  height: 120px;
+  top: 220px;
+  left: 105px;
+  z-index: -10; }
+
+#contents .how_access_photo li:nth-child(8n):after {
+  display: none; }
+
+#contents .how_access_photo li:last-child:after {
+  content: none; }
+
+/*-- Start、Goalの文字 --*/
+#contents .how_access_photo li:first-child .p01:after,
+#contents .how_access_photo li:last-child .p01:after {
+  content: "";
+  position: absolute;
+  display: block;
+  z-index: 10; }
+
+#contents .how_access_photo li:first-child .p01:after {
+  background: url(../images/shop/annnai_txt_001.png) no-repeat;
+  background-size: contain;
+  top: -26px;
+  left: 0;
+  width: 200px;
+  height: 98px; }
+
+#contents .how_access_photo li:last-child .p01:after {
+  background: url(../images/shop/annnai_txt_002.png) no-repeat;
+  background-size: contain;
+  bottom: -26px;
+  right: 10px;
+  width: 170px;
+  height: 94px; }
+
+#contents .how_access_photo li .p01 {
+  background: #fff;
+  border: 5px solid #ff5f0d;
+  border-radius: 105px;
+  width: 210px;
+  height: 210px;
+  overflow: hidden;
+  -webkit-box-shadow: inset 0 0 2px #fff;
+  box-shadow: inset 0 0 2px #fff;
+  margin: 20px 0 10px; }
+
+#contents .how_access_photo li .p01 img {
+  width: 100%;
+  height: auto; }
+
+#contents .how_access_photo li .p02 {
+  height: 45px;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 10px 0 15px 0;
+  padding: 5px;
+  background: #fff;
+  display: inline; }
+
+/*  迷ってしまわれたら (shop)
+=========================================*/
+#contents .lost {
+  clear: both;
+  text-align: center;
+  height: 281px;
+  background: url(../images/etc/bg_contact.png) no-repeat bottom;
+  margin-bottom: 50px; }
+
+#contents .lost p {
+  font-size: 20px;
+  padding-top: 50px; }
+
+/*お客様の声 (shop)
+=========================================*/
+#contents .voice {
+  margin: 20px 10px;
+  overflow: hidden; }
+
+#contents .voice h3 {
+  background: #585757;
+  line-height: 1.4;
+  padding: 8px 10px;
+  margin-bottom: 18px; }
+
+#contents .voice li {
+  border-bottom: 1px dashed #aaa;
+  margin-bottom: 25px; }
+
+#contents .voice li:last-child {
+  border: none; }
+
+#contents .voice dl {
+  overflow: hidden;
+  margin-bottom: 25px;
+  width: 660px; }
+
+#contents .voice .dl02 {
+  margin-left: 300px; }
+
+#contents .voice dt {
+  background: #fffaec;
+  font-size: 20px;
+  padding: 10px 40px;
+  line-height: 1.3;
+  font-weight: bold;
+  border-radius: 10px;
+  box-shadow: 0 3px 0 #ccc;
+  margin-bottom: 21px;
+  position: relative; }
+
+#contents .voice .dl02 dt {
+  color: #fc6025; }
+
+#contents .voice dt:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 100%;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: #ccc transparent transparent transparent; }
+
+#contents .voice dt:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: calc(100% - 6px);
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: #fffaec transparent transparent transparent; }
+
+#contents .voice .dl01 dt:before,
+#contents .voice .dl01 dt:after {
+  left: 10px;
+  border-width: 25px 4px 0 20px; }
+
+#contents .voice .dl02 dt:before,
+#contents .voice .dl02 dt:after {
+  right: 10px;
+  border-width: 25px 20px 0 4px; }
+
+#contents .voice .dl01 .dd01,
+#contents .voice .dl02 .dd02 {
+  float: left; }
+
+#contents .voice .dl02 .dd01,
+#contents .voice .dl01 .dd02 {
+  float: right; }
+
+#contents .voice .dl01 .dd01 {
+  width: 120px;
+  text-align: center; }
+
+#contents .voice .dl02 .dd01 {
+  width: 28%;
+  text-align: center; }
+
+#contents .voice .dl01 .dd02,
+#contents .voice .dl02 .dd02 {
+  font-size: 16px;
+  line-height: 1.6; }
+
+#contents .voice .dl01 .dd02 {
+  width: 520px; }
+
+#contents .voice .dl02 .dd02 {
+  width: 72%; }
+
+#contents .voice .dl01 .dd01 p,
+#contents .voice .dl02 .dd01 p {
+  background: #fee233;
+  border-radius: 10px;
+  line-height: 22px;
+  padding: 5px;
+  display: inline-block;
+  font-size: 14px; }
+
+#contents .voice .dl01 .dd01 p {
+  width: 82px; }
+
+#contents .voice .dl02 .dd01 p {
+  width: 122px;
+  margin-top: -5px; }
+
+#contents .voice .dl01 .dd01 img {
+  width: 68px;
+  height: auto;
+  margin-bottom: 10px; }
+
+#contents .voice .dl02 .dd01 img {
+  width: 90%;
+  height: auto; }
+
+#contents .voice .dl02 .dd01 img {
+  border-radius: 10px;
+  background: #fffaec; }
+
+/* プレーンテキスト（TOP、Shop)
+=========================================*/
+#contents .plane-text {
+  overflow: hidden;
+  width: 960px;
+  margin: 0 auto; }
+
+#contents .plane-text h3 {
+  background: #585757;
+  line-height: 1.4;
+  padding: 8px 10px;
+  margin-bottom: 18px; }
+
+#contents .plane-text h4 {
+  color: #ff5f0d;
+  border-left: 0.3em solid #ff5f0d;
+  padding-left: 0.5em;
+  margin: 10px 0;
+  font-size: 20px; }
+
+#contents .plane-text p {
+  margin-bottom: 30px;
+  line-height: 1.6;
+  font-size: 15px; }
+
+/* *******************************************************************
+
+トップページ専用スタイル
+
+******************************************************************* */
+/*　トップイメージ（w100%部分）
+=========================================*/
+#top .top-image {
+  width: 100%;
+  background: #ff871d url(../images/top/bg_mainimg.jpg) repeat-x top;
+  text-align: center;
+  margin-bottom: 20px; }
+
+/*　TOP　見出し部分
+=========================================*/
+#top #contents h2 {
+  background: url(../images/top/bg_title.png) no-repeat top;
+  overflow: visible;
+  text-shadow: 1px 1.7px 0 #e2e2e1;
+  color: #666;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 1em;
+  padding-top: 20px;
+  height: 57px;
+  text-align: center; }
+
+#top #contents .section_title {
+  background: url(../images/top/bg_grade.png) repeat-y center;
+  text-align: center; }
+
+/* プレーンテキスト（TOP)
+=========================================*/
+#top #contents .plane-text {
+  margin-top: 30px; }
+
+/* *******************************************************************
+
+トップ以外共通
+
+******************************************************************* */
+/*　見出し部分
+=========================================*/
+body:not(#top) #contents h3 {
+  background-color: #ff5f0d;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  color: #fff;
+  padding: 8px;
+  margin-bottom: 10px; }
+
+/* *******************************************************************
+
+店舗ページ
+
+******************************************************************* */
+/*　迷ってしまわれたら
+=========================================*/
+#shop #contents .telnum span {
+  text-decoration: none;
+  font-size: 50px;
+  font-weight: bold;
+  display: block;
+  margin: 25px 0; }
+
+/* *******************************************************************
+
+カテゴリーページ
+
+******************************************************************* */
+/*　レイアウト
+=========================================*/
+.l-cat {
+  width: 1020px;
+  margin: 0 auto; }
+
+.cat_txt h3 {
+  font-size: 14px; }
+
+.cat_txt h4 {
+  font-size: 14px; }
+
+.cat_txt p {
+  font-size: 12px;
+  line-height: 1.8;
+  margin: 0 0 30px; }
+
+/* *******************************************************************
+
+ページ名
+
+******************************************************************* */
+/*　パーツ名
+=========================================*/
+
+/*# sourceMappingURL=style.css.map */
